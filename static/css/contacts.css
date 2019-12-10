@@ -1,0 +1,24 @@
+p, h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.contact-info {
+    margin-left: 18%;
+    max-width: 600px;
+}
+
+.contact-info h1 {
+    margin-top: 3%;
+}
+
+.contact-info p {
+    margin-top: 3%;
+    font-size: 20px;
+    word-wrap: break-word;
+}
+
+.about-me {
+    margin-left: 18%;
+    margin-top: 3%;
+    max-width: 40%;
+}

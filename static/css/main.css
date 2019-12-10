@@ -1,0 +1,83 @@
+img {
+    border-radius: 10px;
+    box-shadow: 0 0 3px 2px;
+    object-fit: cover; 
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 23px;
+}
+
+nav {
+    justify-content: center;
+}
+
+
+form {
+    margin-left: 2%;
+}
+
+nav a:hover {
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: none;
+    color: #1E90FF;
+}
+
+.nav {
+    background-color: #2d303d;
+    height: 53px;
+    margin-bottom: 5rem;
+}
+
+.animal-list  {
+    word-wrap: break-word;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #000;
+    width: 250px;
+    margin-right: 50px;
+}
+
+.animal-list-town {
+    color: #A9A9A9;
+}
+
+.dropdown-menu a:hover {
+    color: #1E90FF;
+}
+
+.animal-desc {
+    margin-top: 20px;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 769px) {
+    nav {
+        width: 100vh;
+        justify-content: flex-start;
+    }
+    .pc {
+        display: none;
+    }
+    .mobile {
+        display: flex;
+    }
+    .nav {
+        margin-bottom: 0;
+    }
+}

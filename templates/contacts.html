@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+<link rel='stylesheet' href='{% static 'css/contacts.css' %}'>
+{% endblock css %}
+{% block content %}
+<div class='container'>
+    <div class="contact-info">
+        <img src='{% static 'images/image.jpeg' %}'>
+        <h1>Контактная информация</h1>
+        <p>Если вы хотите помочь нашему приюту или сдать/взять животное, позвоните нам по телефону: +7(898)937-57-83</p>
+        <p> Так же вы можете написать нам на почту: petshelter@mail.ru или petshelter@gmail.com </p>
+    </div>
+    <hr>
+    <div class="about-me">
+        <p>Проект был создан начинающим Python <a href="https://github.com/Vuatly" target="_blank">Веб-Разработчиком</a> для улучшения собственных навыков в использовании фреймворка Django.</p
+    </div>
+</div>
+
+
+{% endblock content %}

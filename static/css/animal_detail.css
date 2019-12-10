@@ -1,0 +1,18 @@
+.animal-info-photo {
+    margin-top: 6rem;
+    margin-left: 18%;
+}
+
+.animal-info-text {
+    margin-top: 1rem;
+    margin-left: 18%;
+    width: 600px;
+    word-wrap: break-word;
+}
+
+.animal-info-header {
+    margin-top: 3rem;
+    margin-left: 18%;
+    width: 600px;
+    word-wrap: break-word;
+}

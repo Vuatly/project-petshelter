@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}<link rel="stylesheet" href="{% static 'css/animal_detail.css' %}">{% endblock css %}
+{% block content %}
+<div class='container'>
+    <div class="animal-info-photo">
+        <img src="/media/{{ animal.photo }}" width="600" height="400">   
+    </div>
+    <div class="animal-info-header">
+        <h2>{{ animal.nickname }}</h2>
+        <p>{{ animal.receipt_date}}</p>
+    </div>
+    <div class="animal-info-text">
+        <p>{{ animal.full_description }}</p>
+    </div>
+</div>
+{% endblock content %}
